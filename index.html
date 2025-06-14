@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language Explorer</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/interactive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span>Sign</span>Language
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#learn">Learn</a></li>
+                <li><a href="#alphabet">Alphabet</a></li>
+                <li><a href="#common-phrases">Common Phrases</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Discover the World of <span>Sign Language</span></h1>
+                <p>Learn sign language in an interactive and fun way. Communicate without boundaries.</p>
+                <div class="cta-buttons">
+                    <a href="#learn" class="btn primary-btn">Start Learning</a>
+                    <a href="#about" class="btn secondary-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="src/assets/hero-image.png" alt="Sign Language Illustration">
+            </div>
+        </section>
+
+        <section id="learn" class="learn-section">
+            <h2>Begin Your Sign Language Journey</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-sign-language"></i></div>
+                    <h3>Alphabet</h3>
+                    <p>Learn the basic alphabet in sign language, the foundation of signing.</p>
+                    <a href="#alphabet" class="card-link">Explore Alphabet</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-comments"></i></div>
+                    <h3>Common Phrases</h3>
+                    <p>Master everyday expressions and phrases for basic communication.</p>
+                    <a href="#common-phrases" class="card-link">Learn Phrases</a>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fas fa-users"></i></div>
+                    <h3>Conversation</h3>
+                    <p>Practice realistic conversations to improve your fluency.</p>
+                    <a href="#" class="card-link">Start Conversations</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="alphabet" class="alphabet-section">
+            <h2>Sign Language Alphabet</h2>
+            <p class="section-intro">Learn to fingerspell with the American Sign Language alphabet</p>
+            
+            <div class="alphabet-grid">
+                <!-- Letters will be dynamically inserted here with JavaScript -->
+            </div>
+        </section>
+
+        <section id="common-phrases" class="phrases-section">
+            <h2>Common Phrases</h2>
+            <p class="section-intro">Essential expressions for everyday communication</p>
+            
+            <div class="phrases-container">
+                <div class="phrase-card">
+                    <div class="phrase-video">
+                        <img src="src/assets/hello.gif" alt="Hello in sign language">
+                    </div>
+                    <div class="phrase-text">
+                        <h3>Hello</h3>
+                        <p>Wave your hand with your palm facing outward</p>
+                    </div>
+                </div>
+                
+                <div class="phrase-card">
+                    <div class="phrase-video">
+                        <img src="src/assets/thank-you.gif" alt="Thank you in sign language">
+                    </div>
+                    <div class="phrase-text">
+                        <h3>Thank You</h3>
+                        <p>Touch your lips with your fingertips, then move your hand outward</p>
+                    </div>
+                </div>
+                
+                <div class="phrase-card">
+                    <div class="phrase-video">
+                        <img src="src/assets/please.gif" alt="Please in sign language">
+                    </div>
+                    <div class="phrase-text">
+                        <h3>Please</h3>
+                        <p>Rub your chest in a circular motion with your open hand</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-more">
+                <button class="btn primary-btn">View More Phrases</button>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="about-content">
+                <h2>About Sign Language</h2>
+                <p>Sign language is a visual language that uses hand gestures, facial expressions, and body movements to communicate. It's a complete and complex language with its own grammar and syntax.</p>
+                <p>Learning sign language can bridge communication gaps and create a more inclusive society. It's not just for people who are deaf or hard of hearing – it's a valuable skill for everyone.</p>
+            </div>
+            <div class="about-image">
+                <img src="src/assets/about-image.png" alt="People communicating in sign language">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>Sign</span>Language
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#learn">Learn</a></li>
+                    <li><a href="#alphabet">Alphabet</a></li>
+                    <li><a href="#common-phrases">Common Phrases</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to our newsletter for the latest sign language resources</p>
+                <form>
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit" class="btn primary-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Sign Language Explorer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="src/scripts/main.js"></script>
+    <script src="src/scripts/interactive.js"></script>
+</body>
+</html> 
